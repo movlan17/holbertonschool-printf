@@ -1,0 +1,5 @@
+int check_prtr(char c, va_list args)
+{
+    /* burada format spesifikatorlarına görə uyğun çap et */
+}
+
