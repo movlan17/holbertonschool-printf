@@ -2,14 +2,10 @@
 #define HEADER_FILE
 
 
-/* ======= LIBRARIES ======= */
-
 #include <stdarg.h>
 #include <stdlib.h>
 #include <unistd.h>
 
-
-/* ======= STRUCTURES ====== */
 
 /**
  * struct ptr - parameters and functions struct
@@ -25,11 +21,11 @@ typedef struct ptr
 
 /* === FUNCTIONS PROTOTYPES === */
 
-/* _printf and parameter checker Functions*/
+
 int _printf(const char *format, ...);
 int (*check_prtr(char specifier))(char *, int, va_list);
 
-/* Parameters Functions */
+
 int func_d(char *buff, int count, va_list value);
 int func_i(char *buff, int count, va_list value);
 int func_u(char *buff, int count, va_list value);
